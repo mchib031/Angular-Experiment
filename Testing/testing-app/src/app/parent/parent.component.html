@@ -1,2 +1,4 @@
-<app-child [childMessage]="'Hello from parent'"></app-child>
 <!place child component into passed value to input proprerty in child.component.ts>
+<app-child [childMessage]="'Hello from parent'"></app-child>
+
+<app-child (messageEvent)="receiveMessage($event)"></app-child>
