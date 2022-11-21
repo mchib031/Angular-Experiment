@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HelloworldComponentComponent } from './helloworld-component/helloworld-component.component';
+import { TextInterpolationComponent } from './text-interpolation/text-interpolation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HelloworldComponentComponent
+    HelloworldComponentComponent,
+    TextInterpolationComponent
   ],
   imports: [
     BrowserModule,
