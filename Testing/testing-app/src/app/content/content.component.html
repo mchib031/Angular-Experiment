@@ -1,8 +1,6 @@
 <p>content works!</p>
-<!ng content with multiple selectors>
-<ng-content [selector1]></ng-content>
-<ng-content [selector2]></ng-content>
+<b>Date without date pipe</b>
+<li>{{date}}</li>
+<b>Date with date pipe and "|" is the pipe operator</b>
+<li>{{date | date}}</li>
 
-<!template statements, pass events if you want to get specifics in the component such as form values>
-<button (click)="toggleText($event)">Toggle Text</button>
-{{showText}}
