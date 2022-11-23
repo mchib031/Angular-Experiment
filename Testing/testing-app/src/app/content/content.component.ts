@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class ContentComponent implements OnInit {
 // demonstrate pipes
   date = new Date();
-
+// demonstrating custom pipe
+  text = 'wassup';
 
   constructor() { }
 
