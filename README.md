@@ -11,5 +11,5 @@ This branch is part of an angular experimen. Here I will display how we use angu
 
 ## References
 * List of all pipes https://angular.io/guide/pipes
-* replacing/removing a substring in a string https://bobbyhadz.com/blog/javascript-remove-substring-from-string#:~:text=To%20remove%20a%20substring%20from,the%20supplied%20substring%20is%20removed.
+* replacing/removing a substring in a string https://bobbyhadz.com/blog/javascript-remove-substring-from-string
 * https://www.youtube.com/watch?v=AAu8bjj6-UI
