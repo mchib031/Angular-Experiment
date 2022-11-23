@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
 export class HelloworldComponentComponent implements OnInit {
 
   // public proprieties that you define in this class are accessible in the html template
-  title = 'Hello World Component';
+  title = 'NG Content & Template Statements';
 
   constructor() { }
 
