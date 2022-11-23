@@ -7,6 +7,7 @@ import { HelloworldComponentComponent } from './helloworld-component/helloworld-
 import { TextInterpolationComponent } from './text-interpolation/text-interpolation.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
+import { ContentComponent } from './content/content.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ChildComponent } from './child/child.component';
     HelloworldComponentComponent,
     TextInterpolationComponent,
     ParentComponent,
-    ChildComponent
+    ChildComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
