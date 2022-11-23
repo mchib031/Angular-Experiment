@@ -3,3 +3,6 @@
 <ng-content [selector1]></ng-content>
 <ng-content [selector2]></ng-content>
 
+<!template statements, pass events if you want to get specifics in the component such as form values>
+<button (click)="toggleText($event)">Toggle Text</button>
+{{showText}}

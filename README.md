@@ -1,6 +1,6 @@
 # Angular Experiment
 
-This repository is part of an angular experiment simple single/multi-page web application with basic/advanced functionality. This application can use concepts such as components, routing, hooks, data binding and text interpolation etc..
+This branch is part of an angular experimen. Here I will display how we can use ng content to improve communication between components and HTML Templates, and use template statements to respond to events.
 
 ## References
 https://www.youtube.com/watch?v=AAu8bjj6-UI
