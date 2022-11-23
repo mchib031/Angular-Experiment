@@ -8,6 +8,7 @@ import { TextInterpolationComponent } from './text-interpolation/text-interpolat
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { ContentComponent } from './content/content.component';
+import { TestPipePipe } from './test-pipe.pipe';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ContentComponent } from './content/content.component';
     TextInterpolationComponent,
     ParentComponent,
     ChildComponent,
-    ContentComponent
+    ContentComponent,
+    TestPipePipe
   ],
   imports: [
     BrowserModule,
