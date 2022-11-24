@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./content.component.css']
 })
 export class ContentComponent implements OnInit {
+  //propriety binding
   imgURL = '../assets/images/odin1.jpg';
   isUnchanged = true;
+  //attribute binding
+  expression = "this is an expression";
   constructor() { }
 
   ngOnInit(): void {
