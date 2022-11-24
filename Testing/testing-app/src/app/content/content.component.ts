@@ -6,11 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./content.component.css']
 })
 export class ContentComponent implements OnInit {
-// demonstrate pipes
-  date = new Date();
-// demonstrating custom pipe
-  text = 'wassup';
-
+  imgURL = '../assets/images/odin1.jpg';
+  isUnchanged = true;
   constructor() { }
 
   ngOnInit(): void {

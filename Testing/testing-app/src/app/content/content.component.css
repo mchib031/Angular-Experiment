@@ -4,3 +4,6 @@
   display: block;
   border: 2px solid blueviolet;
 }
+img{
+  max-height: 260px;
+}
