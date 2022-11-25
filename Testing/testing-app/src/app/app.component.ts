@@ -23,4 +23,8 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   title = 'testing-app';
+
+  customEventBind(item: any){
+    console.log(item)
+  }
 }

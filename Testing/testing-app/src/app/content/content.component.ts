@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-content',
@@ -19,7 +19,14 @@ export class ContentComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
   onClick(){
     this.isUnchanged = !this.isUnchanged;
   }
+
+  @Output() msg = new EventEmitter<string>();
+  customClick(){
+    this.msg.emit("This is a custom message");
+  }
+
 }
