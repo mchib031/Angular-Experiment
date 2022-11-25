@@ -6,7 +6,14 @@
 
 <ng-content select=".s2"></ng-content>
 <h3>Prefix attr</h3>
-<p [attr.style]="expression"]></p>
+<!class binding>
+<div [class.newclass]="newClass">
+  <p>this is insade the newclass</p>
+</div>
+<!multiple class binding>
+<div [class]="{'newClass':false, 'anotherClass':true}">
+  <p>this is insade the multiple class div</p>
+</div>
 <b></b>
 <li></li>
 <b></b>

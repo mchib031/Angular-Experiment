@@ -11,6 +11,9 @@ export class ContentComponent implements OnInit {
   isUnchanged = true;
   //attribute binding
   expression = "this is an expression";
+  //class binding
+  //we don't remove the propriety div but we remove the css class
+  newClass= true;
   constructor() { }
 
   ngOnInit(): void {
