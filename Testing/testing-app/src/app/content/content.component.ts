@@ -19,5 +19,7 @@ export class ContentComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  onClick(){
+    this.isUnchanged = !this.isUnchanged;
+  }
 }
