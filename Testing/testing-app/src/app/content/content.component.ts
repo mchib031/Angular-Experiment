@@ -14,6 +14,7 @@ export class ContentComponent implements OnInit {
   //class binding
   //we don't remove the propriety div but we remove the css class
   newClass= true;
+  divstyle = 'color :white; background-color: black; padding-left:10px;'
   constructor() { }
 
   ngOnInit(): void {
