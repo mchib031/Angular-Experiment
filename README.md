@@ -12,3 +12,4 @@ https://www.youtube.com/watch?v=gg0-WMVQbdQ
 https://www.youtube.com/watch?v=WHv1YQUg6ow
 https://www.youtube.com/watch?v=0wvrlOyGlq0
 https://semantic-ui.com/
+https://ng-bootstrap.github.io/#/components/carousel/examples
