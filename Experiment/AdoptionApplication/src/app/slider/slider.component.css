@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: bisque;
+  background-color: khaki;
 }
 
 img{
@@ -54,7 +54,7 @@ img{
 }
 
 .manual-btn:hover{
-  background: #474044;
+  background: khaki;
 }
 
 #radio1:checked ~ .first{
@@ -71,4 +71,39 @@ img{
 
 #radio4:checked ~ .first{
   margin-left: -60%;
+}
+
+.navigation-auto{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 660px;
+}
+
+.navigation-auto div{
+  border: 2px solid khaki;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+  margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background: khaki;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background: khaki;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background: khaki;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+  background: khaki;
 }
