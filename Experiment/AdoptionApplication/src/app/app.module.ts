@@ -11,6 +11,7 @@ import { CatAdoptionComponent } from './pages/cat-adoption/cat-adoption.componen
 import { PetCareComponent } from './pages/pet-care/pet-care.component';
 import { AboutComponent } from './pages/about/about.component';
 import { FooterComponent } from './footer/footer.component';
+import { TestimonialComponent } from './content/testimonial/testimonial.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './footer/footer.component';
     CatAdoptionComponent,
     PetCareComponent,
     AboutComponent,
-    FooterComponent
+    FooterComponent,
+    TestimonialComponent
   ],
   imports: [
     BrowserModule,

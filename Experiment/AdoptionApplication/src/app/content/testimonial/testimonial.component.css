@@ -1,0 +1,21 @@
+.body{
+    margin: 100px 30px;
+    display: flex;
+    height: 50vh;
+    overflow: hidden;
+}
+.body > * {
+    flex: 1 1;
+}
+
+.paragraph{
+    font-size: 16px;
+    padding-top: 120px;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    object-fit:cover;
+    padding: 10px;
+    width: 50px;
+}

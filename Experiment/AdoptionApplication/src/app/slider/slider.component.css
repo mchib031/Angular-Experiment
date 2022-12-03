@@ -5,11 +5,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: khaki;
+  background-color: black;
 }
 
 img{
   max-width: 100%;
+  height: 100vh;
+  object-fit: fill;
 }
 
 .slider{
